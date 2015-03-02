@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED2495C41AA3366700E2EA4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2495C31AA3366700E2EA4A /* main.m */; };
+		ED2495C71AA3366700E2EA4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2495C61AA3366700E2EA4A /* AppDelegate.m */; };
+		ED2495CA1AA3366700E2EA4A /* FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2495C91AA3366700E2EA4A /* FirstVC.m */; };
+		ED2495CD1AA3366700E2EA4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2495CB1AA3366700E2EA4A /* Main.storyboard */; };
+		ED2495CF1AA3366700E2EA4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2495CE1AA3366700E2EA4A /* Images.xcassets */; };
+		ED2495D21AA3366700E2EA4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED2495D01AA3366700E2EA4A /* LaunchScreen.xib */; };
+		ED2495EB1AA338D100E2EA4A /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2495EA1AA338D100E2EA4A /* SecondVC.m */; };
+		ED2495FE1AA33F3800E2EA4A /* RateHelper.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ED2495F91AA33F3800E2EA4A /* RateHelper.bundle */; };
+		ED2495FF1AA33F3800E2EA4A /* RateHelperSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2495FB1AA33F3800E2EA4A /* RateHelperSettings.m */; };
+		ED2496001AA33F3800E2EA4A /* RateHelperView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2495FD1AA33F3800E2EA4A /* RateHelperView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED2495BE1AA3366700E2EA4A /* RateHelperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RateHelperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2495C21AA3366700E2EA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED2495C31AA3366700E2EA4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED2495C51AA3366700E2EA4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED2495C61AA3366700E2EA4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED2495C81AA3366700E2EA4A /* FirstVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstVC.h; sourceTree = "<group>"; };
+		ED2495C91AA3366700E2EA4A /* FirstVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstVC.m; sourceTree = "<group>"; };
+		ED2495CC1AA3366700E2EA4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED2495CE1AA3366700E2EA4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED2495D11AA3366700E2EA4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ED2495E91AA338D100E2EA4A /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		ED2495EA1AA338D100E2EA4A /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		ED2495F91AA33F3800E2EA4A /* RateHelper.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RateHelper.bundle; sourceTree = "<group>"; };
+		ED2495FA1AA33F3800E2EA4A /* RateHelperSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateHelperSettings.h; sourceTree = "<group>"; };
+		ED2495FB1AA33F3800E2EA4A /* RateHelperSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateHelperSettings.m; sourceTree = "<group>"; };
+		ED2495FC1AA33F3800E2EA4A /* RateHelperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateHelperView.h; sourceTree = "<group>"; };
+		ED2495FD1AA33F3800E2EA4A /* RateHelperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateHelperView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED2495BB1AA3366700E2EA4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED2495B51AA3366700E2EA4A = {
+			isa = PBXGroup;
+			children = (
+				ED2495C01AA3366700E2EA4A /* RateHelperExample */,
+				ED2495BF1AA3366700E2EA4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED2495BF1AA3366700E2EA4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED2495BE1AA3366700E2EA4A /* RateHelperExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED2495C01AA3366700E2EA4A /* RateHelperExample */ = {
+			isa = PBXGroup;
+			children = (
+				ED2495EC1AA338E100E2EA4A /* App */,
+				ED2495ED1AA338EC00E2EA4A /* 1 */,
+				ED2495EE1AA338F100E2EA4A /* 2 */,
+				ED2495F81AA33F3800E2EA4A /* RateHelper */,
+				ED2495C11AA3366700E2EA4A /* Supporting Files */,
+			);
+			path = RateHelperExample;
+			sourceTree = "<group>";
+		};
+		ED2495C11AA3366700E2EA4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED2495CB1AA3366700E2EA4A /* Main.storyboard */,
+				ED2495CE1AA3366700E2EA4A /* Images.xcassets */,
+				ED2495D01AA3366700E2EA4A /* LaunchScreen.xib */,
+				ED2495C21AA3366700E2EA4A /* Info.plist */,
+				ED2495C31AA3366700E2EA4A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED2495EC1AA338E100E2EA4A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ED2495C51AA3366700E2EA4A /* AppDelegate.h */,
+				ED2495C61AA3366700E2EA4A /* AppDelegate.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		ED2495ED1AA338EC00E2EA4A /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				ED2495C81AA3366700E2EA4A /* FirstVC.h */,
+				ED2495C91AA3366700E2EA4A /* FirstVC.m */,
+			);
+			name = 1;
+			sourceTree = "<group>";
+		};
+		ED2495EE1AA338F100E2EA4A /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				ED2495E91AA338D100E2EA4A /* SecondVC.h */,
+				ED2495EA1AA338D100E2EA4A /* SecondVC.m */,
+			);
+			name = 2;
+			sourceTree = "<group>";
+		};
+		ED2495F81AA33F3800E2EA4A /* RateHelper */ = {
+			isa = PBXGroup;
+			children = (
+				ED2495F91AA33F3800E2EA4A /* RateHelper.bundle */,
+				ED2495FA1AA33F3800E2EA4A /* RateHelperSettings.h */,
+				ED2495FB1AA33F3800E2EA4A /* RateHelperSettings.m */,
+				ED2495FC1AA33F3800E2EA4A /* RateHelperView.h */,
+				ED2495FD1AA33F3800E2EA4A /* RateHelperView.m */,
+			);
+			name = RateHelper;
+			path = ../../RateHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED2495BD1AA3366700E2EA4A /* RateHelperExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED2495E11AA3366800E2EA4A /* Build configuration list for PBXNativeTarget "RateHelperExample" */;
+			buildPhases = (
+				ED2495BA1AA3366700E2EA4A /* Sources */,
+				ED2495BB1AA3366700E2EA4A /* Frameworks */,
+				ED2495BC1AA3366700E2EA4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RateHelperExample;
+			productName = RateHelperExample;
+			productReference = ED2495BE1AA3366700E2EA4A /* RateHelperExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED2495B61AA3366700E2EA4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Kirill Dyakonov";
+				TargetAttributes = {
+					ED2495BD1AA3366700E2EA4A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = ED2495B91AA3366700E2EA4A /* Build configuration list for PBXProject "RateHelperExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED2495B51AA3366700E2EA4A;
+			productRefGroup = ED2495BF1AA3366700E2EA4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED2495BD1AA3366700E2EA4A /* RateHelperExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED2495BC1AA3366700E2EA4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2495CD1AA3366700E2EA4A /* Main.storyboard in Resources */,
+				ED2495FE1AA33F3800E2EA4A /* RateHelper.bundle in Resources */,
+				ED2495D21AA3366700E2EA4A /* LaunchScreen.xib in Resources */,
+				ED2495CF1AA3366700E2EA4A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED2495BA1AA3366700E2EA4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2496001AA33F3800E2EA4A /* RateHelperView.m in Sources */,
+				ED2495CA1AA3366700E2EA4A /* FirstVC.m in Sources */,
+				ED2495C71AA3366700E2EA4A /* AppDelegate.m in Sources */,
+				ED2495EB1AA338D100E2EA4A /* SecondVC.m in Sources */,
+				ED2495FF1AA33F3800E2EA4A /* RateHelperSettings.m in Sources */,
+				ED2495C41AA3366700E2EA4A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED2495CB1AA3366700E2EA4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED2495CC1AA3366700E2EA4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED2495D01AA3366700E2EA4A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED2495D11AA3366700E2EA4A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED2495DF1AA3366800E2EA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED2495E01AA3366800E2EA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED2495E21AA3366800E2EA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RateHelperExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED2495E31AA3366800E2EA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RateHelperExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED2495B91AA3366700E2EA4A /* Build configuration list for PBXProject "RateHelperExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2495DF1AA3366800E2EA4A /* Debug */,
+				ED2495E01AA3366800E2EA4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED2495E11AA3366800E2EA4A /* Build configuration list for PBXNativeTarget "RateHelperExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2495E21AA3366800E2EA4A /* Debug */,
+				ED2495E31AA3366800E2EA4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED2495B61AA3366700E2EA4A /* Project object */;
+}
